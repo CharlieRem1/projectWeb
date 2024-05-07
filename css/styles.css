@@ -13,17 +13,25 @@ p, h1, a, button {
     font-family: "Courier New";
 }
 
+.who {
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+}
+
 h1 {
     padding-left: 5rem;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 b {
-    font-size: 45px;
+    font-size: 35px;
 }
 
 p {
-    font-size: 40px;
+    font-size: 30px;
+    padding-left: 3rem;
+    text-align: justify;
 }
 
 footer {
@@ -35,7 +43,7 @@ a {
     outline: none;
     text-decoration: none;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /*Работа с кнопками*/
@@ -55,25 +63,33 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     font-weight:bold;
 }
 
 button:hover {
     background-color: rgb(39, 39, 39);
-    font-size: 32px;
+    font-size: 22px;
     color:azure;
     transition: 0.3s;
 }
 
 
 .ishere {
-    font-size: 32px;
+    font-size: 22px;
     background-color: azure;
     color:rgb(29, 29, 29);
 }
 
+
+/*Работа со штуками*/
 img {
-    width: 20rem;
-    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    float: right;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    max-width: 20rem;
+    max-height: 20rem;
 }
