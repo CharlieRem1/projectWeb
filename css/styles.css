@@ -1,0 +1,79 @@
+html {
+    background-color: rgb(29, 29, 29);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Работа с текстом*/
+p, h1, a, button {
+    color:azure;
+    font-family: "Courier New";
+}
+
+h1 {
+    padding-left: 5rem;
+    font-size: 50px;
+}
+
+b {
+    font-size: 45px;
+}
+
+p {
+    font-size: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+/*Работа с кнопками*/
+.btns {
+    display: flex;
+    flex-flow: nowrap;
+    width: 100%;
+    height: 5rem;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(29, 29, 29); /* Green */
+    border: none;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+button:hover {
+    background-color: rgb(39, 39, 39);
+    font-size: 32px;
+    color:azure;
+    transition: 0.3s;
+}
+
+
+.ishere {
+    font-size: 32px;
+    background-color: azure;
+    color:rgb(29, 29, 29);
+}
+
+img {
+    width: 20rem;
+    height: 20rem;
+}
