@@ -8,7 +8,7 @@ html, body {
 }
 
 /*Работа с текстом*/
-p, h1, a, button {
+p, h1, a, button, th, td {
     color:azure;
     font-family: "Courier New";
 }
@@ -28,7 +28,7 @@ b {
     font-size: 35px;
 }
 
-p {
+p, th, td {
     font-size: 30px;
     padding-left: 3rem;
     text-align: justify;
@@ -83,7 +83,7 @@ button:hover {
 
 
 /*Работа со штуками*/
-img {
+.logo {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -92,4 +92,28 @@ img {
     margin-right: 3rem;
     max-width: 20rem;
     max-height: 20rem;
+}
+
+img {
+    object-fit: cover;
+    width: 40rem;
+    height: 40rem;
+}
+
+table {
+    border: 0;
+    width: 40rem;
+    margin: 0;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+tr, td, th {
+    border: solid 2px azure;
+    size: auto;
 }
