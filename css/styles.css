@@ -8,7 +8,7 @@ html, body {
 }
 
 /*Работа с текстом*/
-p, h1, a, button, th, td, b {
+p, h1, a, button, th, td, b, input, span {
     color:azure;
     font-family: "Courier New";
 }
@@ -108,7 +108,7 @@ img {
 
 table {
     border: 0;
-    width: 40rem;
+    width: auto;
     margin: 0;
 }
 
@@ -117,6 +117,10 @@ table {
     flex-wrap: wrap;
     justify-content: space-evenly;
     height: 100%;
+}
+
+th {
+    text-align: center;
 }
 
 tr, td, th {
